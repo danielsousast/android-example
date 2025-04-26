@@ -1,21 +1,17 @@
 package com.example.androidexample
 
-import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.View
-import androidx.activity.enableEdgeToEdge
-import androidx.appcompat.app.AppCompatActivity
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : AppCompatActivity(), View.OnClickListener {
+class LoginScreen: AppCompatActivity(), View.OnClickListener {
     lateinit var buttonEnter: Button
     lateinit var buttonRegister: Button
 
-    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.login_screen)
 
         buttonEnter = findViewById(R.id.buttonLogin)
         buttonRegister = findViewById(R.id.buttonRegister)

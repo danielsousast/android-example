@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">AndroidExample</string>
+    <string name="welcome_to_android_example">Welcome to Android Example</string>
+    <string name="get_started">Get Started</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="logo_image_text">Imagem de Logo</string>
 </resources>
