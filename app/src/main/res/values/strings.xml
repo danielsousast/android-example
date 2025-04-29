@@ -9,4 +9,7 @@
     <string name="sign_up">Sign Up</string>
     <string name="forgot_password">Forgot Password?</string>
     <string name="logo_image_text">Imagem de Logo</string>
+    <string name="welcome">Welcome</string>
+    <string name="welcome_to_the_app_here_you_can_not_do_anything">Welcome to the app. Here you can not do anything!</string>
+    <string name="get_started_button">Get Started</string>
 </resources>
